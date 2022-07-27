@@ -6,3 +6,12 @@ const Film = function (title, genre, year, length) {
 };
 
 module.exports = Film;
+
+
+const myFilm = {
+  title:'Dunkirk',
+  genre:'history',
+  year:2017,
+  length:96,
+  filmrating:8.2
+}
