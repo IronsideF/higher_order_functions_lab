@@ -16,7 +16,7 @@ Cinema.prototype.findFilmByTitle = function (title) {
 
 Cinema.prototype.hasYear = function (year) {
   result = this.films.some(film => film.year === year);
-  return result
+  return result;
 }
 
 Cinema.prototype.allFilmsOverLength = function (length) {
@@ -28,7 +28,7 @@ Cinema.prototype.totalRunningTime = function () {
 }
 
 Cinema.prototype.filterByCategory = function (category, value) {
-  return this.films.filter(film => film[category]===value)
+  return this.films.filter(film => film[category]===value);
 }
 
 module.exports = Cinema;
